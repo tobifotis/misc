@@ -14,13 +14,19 @@ private:
     string color;
 
 public:
+    House();
+
+    House(int numStories, int numWindows, string color);
+
+    //~House();
+
     void setNumStories(int numStories);
 
     void setNumWindows(int numWindows);
 
     void setColor(string color);
 
-    void print();
+    void print() const;
 
     int getNumStories() const;
 
