@@ -18,6 +18,12 @@ string Dog::makeNoise() const
     return "woof!";
 }
 
+string Dog::eat() const
+{
+    return "I love dog food!";
+}
+
+
 void Dog::digHole() const
 {
     cout << "I'm digging a hole!" << endl;

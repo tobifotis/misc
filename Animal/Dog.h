@@ -16,6 +16,7 @@ public:
     string getBreed() const;
     void digHole() const;
     string makeNoise() const;
+    string eat() const;
     void chaseCat() const;
 };
 
